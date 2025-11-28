@@ -1,5 +1,6 @@
 import React from "react"
-import homeBanner from "../../../../assets/homeBanner.gif";
+// import homeBanner from "../../../../assets/homeBanner.gif";
+import homeBanner from "../../../../assets/homeBanner.png";
 
 export const TitleSection = () => {
   return (
