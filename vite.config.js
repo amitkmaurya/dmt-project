@@ -6,6 +6,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig(({ mode }) => ({
   plugins: [react(), mode === "development"],
+  base: "/dmt-project/",
   publicDir: "./static",
   base: "./",
   css: {
